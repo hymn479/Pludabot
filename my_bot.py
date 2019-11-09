@@ -24,7 +24,7 @@ async def on_ready():
 
 
 
-access_token = os.environ["NTUwODgxNzAxNTQ3NzM3MDg4.XcZJwA.Httg_Du9AxiF4CRcBLEFd5ZCsYU"]
+access_token = os.environ["MY_BOT"]
 client.run(access_token)
 
 
