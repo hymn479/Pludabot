@@ -1,4 +1,6 @@
 import discord
+import os
+
 
 client = discord.Client()
 
@@ -21,7 +23,9 @@ async def on_ready():
 
 
 
-client.run("NTUwODgxNzAxNTQ3NzM3MDg4.XcZJwA.Httg_Du9AxiF4CRcBLEFd5ZCsYU")
+
+access_token = os.environ["NTUwODgxNzAxNTQ3NzM3MDg4.XcZJwA.Httg_Du9AxiF4CRcBLEFd5ZCsYU"]
+client.run(access_token)
 
 
 
